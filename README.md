@@ -14,8 +14,10 @@ For this project I wanted to show off as many OOP concepts as possible to showca
 When this program is run you will be presented with a series of prompts. Your answers to these prompts will decide whether an item is added, the item price, etc. After you have no other items to add the final prices will be displayed to you as requested in the coding test instructions. 
 
 Prompt #1: Enter item name - 
-  For this the item names need to be exact, especially if you are adding multple of the same items.
-  Example: Imported box of chocolates != Imported Box of chocolates != Imported box chocolates (I just realized I can solve this (Imported box of chocolates != Imported Box of chocolates) by setting it to uppercase on   entry. (Fixed)
+  For this the item names need to be exact, especially if you are adding multple of the same items. You also don't want to enter a number here.
+  #It should read- Box of Chocolates not 1 Box of Chocolates. 
+  The number of the item will be decided by how many you add to the shopping cart individually. 
+  (*Ignore*)Example: Imported box of chocolates != Imported Box of chocolates != Imported box chocolates (I just realized I can solve this (Imported box of chocolates != Imported Box of chocolates) by setting it to uppercase on entry. (Fixed)
   
 Prompt #2: Enter item price - 
   Must be a number. Automatically parses and sets at double data type. 
