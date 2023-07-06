@@ -3,8 +3,7 @@
 For this project I wanted to show off as many OOP concepts as possible to showcase my knowledge. I also strived for a project structure that made to most sense to me and to anyone else viewing the project folder. 
 
 1. OOP Concepts
-   I mainly used instances of Abstraction, Inheritance, and Polymorphism through out the project and where ever I deemed it necessary. For example, I created an ABSTRACT class 'Item' which the classes 'ExemptItem' and     
-  'StandardItem' inherited from. I provided an example of polymorphism through the changing in function of 'calculateSalesTax()' based on if the item added to the shopping cart is exempt from sales taxes or not.   
+   I mainly used instances of Abstraction, Inheritance, and Polymorphism through out the project and where ever I deemed it necessary. For example, I created an ABSTRACT class 'Item' which the classes 'ExemptItem' and     'StandardItem' inherited from. I provided an example of polymorphism through the changing in function of 'calculateSalesTax()' based on if the item added to the shopping cart is exempt from sales taxes or not.   
    
 3. Project Folder Structure
    I created two different folders (creating different namespaces) and arranged for closely related classes to be put in the same related folder. I feel as this provided better accessibility and declutters the project   folder while navigating through the files. Everything dealing with the receipt creation was put in the folder 'ReceiptGenerator' and everying involving the different types of items were put in the 'ShoppingItemTypes' folder. The only files left out of a folder was the starting point of the program 'Program.cs' and 'CheckOut.cs'.
