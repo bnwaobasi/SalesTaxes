@@ -19,7 +19,8 @@ namespace SalesTaxes
             while (addItem)
             {
                 Console.WriteLine("Enter item name: ");
-                string name = Console.ReadLine();
+                string name = Console.ReadLine().ToLower();
+                name = char.ToUpper(name[0]) + name.Substring(1);
 
                 Console.WriteLine("Enter item price: ");
                 double price;
