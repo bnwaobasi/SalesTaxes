@@ -15,8 +15,10 @@ When this program is run you will be presented with a series of prompts. Your an
 
 Prompt #1: Enter item name - 
   For this the item names need to be exact, especially if you are adding multple of the same items. You also don't want to enter a number here.
+  
   #It should read- Box of Chocolates not 1 Box of Chocolates. 
   The number of the item will be decided by how many you add to the shopping cart individually. 
+  
   (*Ignore*)Example: Imported box of chocolates != Imported Box of chocolates != Imported box chocolates (I just realized I can solve this (Imported box of chocolates != Imported Box of chocolates) by setting it to uppercase on entry. (Fixed)
   
 Prompt #2: Enter item price - 
